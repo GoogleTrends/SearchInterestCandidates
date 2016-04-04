@@ -194,7 +194,6 @@ function chart(csvpath, color) {
 				.attr('class', function(d) { return 'labels ' + (getLabel(d.key).cssClass); })
 				.text(function(d) {
 					if(labels[d.key] !== undefined) {
-						console.log(d.key);
 						return getLabel(d.key).display;
 					}
 					return '';
