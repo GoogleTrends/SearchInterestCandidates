@@ -90,15 +90,11 @@ function chart(csvpath, color) {
 
 	if (color == "blue") {
 		colorrange = ["#D0D1E6", "#2B8CBE", "#74A9CF", "#A6BDDB", "#045A8D", "#F1EEF6"];
-		//colorrange = ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"];
 	}
 	else if (color == "red") {
-		//colorrange = ["#953012", "#FF2A2A", "#FF5555", "#FF8080", "#FC8C74", 
+		//  colorrange = ["#953012", "#FF2A2A", "#FF5555", "#FF8080", "#FC8C74", 
 		//			"#FEB195", "#FFAAAA", "#FFC9B4", "#FDE5D9", "#FFD5D5", "#D23E00"];
 		colorrange = ["#E91D0E", "#B51409", "#860F07", "#D8483E", "#FF7E76", "#E7B4B1"];
-	}
-	else if (color == "orange") {
-		colorrange = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
 	}
 	strokecolor = colorrange[0];
 
@@ -152,12 +148,9 @@ function chart(csvpath, color) {
 
 	$(".streamGraph").fadeOut(250, function() {
 		var svg = d3.select(".streamGraph").html("").append("svg")
-			// .attr("width", width + margin.left + margin.right)
-			// .attr("height", height + margin.top + margin.bottom)
 			.attr("width", '100%')
 			.attr("height", '100%')
 			.attr('viewBox','0 0 ' + (width + margin.left + margin.right) + ' ' + (height + margin.top + margin.bottom))
-			// .attr('preserveAspectRatio','xMinYMin')
 			.append("g")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 		$(".streamGraph").fadeIn(250);

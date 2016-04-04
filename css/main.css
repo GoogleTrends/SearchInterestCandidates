@@ -160,10 +160,6 @@ nav a.demButton:hover {
   max-height: 600px;
 }
 
-.streamGraph text {
-	color: #fff;
-}
-
 .streamGraph .labels {
 	pointer-events: none;
 	font-family: "Open Sans";
@@ -262,8 +258,8 @@ p {
 }
 
 .x.axis .tick text {
-	color: #fff;
-	display: none;
+	font-family: "Open Sans";
+	fill: #fff;
 }
 
 button {
