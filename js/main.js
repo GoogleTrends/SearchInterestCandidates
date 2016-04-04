@@ -48,6 +48,13 @@ function chart(csvpath, color) {
 			display: 'Rubio',			
 			cssClass: 'small'
 		},
+		"John Kasich": {
+			color: '#fff',
+			x: '90.5%',
+			y: '58.2%',
+			display: 'Kasich',			
+			cssClass: 'super-small'
+		},
 		"Ben Carson": {
 			color: '#fff',
 			x: '47.25%',
