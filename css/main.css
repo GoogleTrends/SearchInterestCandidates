@@ -103,6 +103,7 @@ nav a {
 	display: block;
 	margin-bottom: 10px;
 	padding: 15px 0;
+	font-family: "Open Sans";
 
 	text-align: center;
 	text-decoration: none;
@@ -163,6 +164,7 @@ nav a.demButton:hover {
 .streamGraph .labels {
 	pointer-events: none;
 	font-family: "Open Sans";
+	font-weight: 300;
 }
 
 
@@ -298,6 +300,7 @@ button {
 h1 {
 	font-size: 1.5em;
 	font-weight: 300;
+	font-family: "Open Sans";
 }
 
 /* ==========================================================================
