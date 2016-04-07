@@ -28,14 +28,14 @@ function chart(csvpath, color) {
 	var labels = {
 		"Donald Trump": {
 			color: '#fff',
-			x: '84.5%',
+			x: '83.5%',
 			y: '35.33%',
 			display: 'Trump',
 			cssClass: 'large'
 		},
 		"Ted Cruz": {
 			color: '#fff',
-			x: '88.88%',
+			x: '87.88%',
 			y: '70%',
 			size: '18px',
 			display: 'Cruz',
@@ -43,7 +43,7 @@ function chart(csvpath, color) {
 		},
 		"Marco Rubio": {
 			color: '#fff',
-			x: '87.19%',
+			x: '86.19%',
 			y: '51%',
 			display: 'Rubio',			
 			cssClass: 'small'
@@ -51,20 +51,20 @@ function chart(csvpath, color) {
 		"John Kasich": {
 			color: '#fff',
 			x: '90.5%',
-			y: '58.2%',
+			y: '60.2%',
 			display: 'Kasich',			
 			cssClass: 'super-small'
 		},
 		"Ben Carson": {
 			color: '#fff',
-			x: '47.25%',
+			x: '46.25%',
 			y: '55.43%',
 			display: 'Carson',
 			cssClass: 'smaller'
 		},
 		"Carly Fiorina": {
 			color: '#fff',
-			x: '31.5%',
+			x: '31%',
 			y: '51.5%',
 			display: 'Fiorina',
 			cssClass: 'tiny'
@@ -78,8 +78,8 @@ function chart(csvpath, color) {
 		},
 		"Hillary Clinton": {
 			color: '#fff',
-			x: '87.88%',
-			y: '64.5%',
+			x: '86.88%',
+			y: '66.5%',
 			display: 'Clinton',
 			cssClass: 'medium'
 		},

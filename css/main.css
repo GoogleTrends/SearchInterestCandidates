@@ -167,6 +167,12 @@ nav a.demButton:hover {
 	font-weight: 300;
 }
 
+@media screen and (max-width: 799px) {
+
+	.streamGraph .labels {
+		display: none;
+	}
+}
 
 @media screen and (min-width: 800px) {
 	.streamGraph .labels.large {
@@ -189,6 +195,10 @@ nav a.demButton:hover {
 
 	.streamGraph .labels.tiny {
 		display: none;    
+	}
+
+	.streamGraph .labels.super-small {
+		display: none;
 	}
 }
 
@@ -215,7 +225,7 @@ nav a.demButton:hover {
 	}
 
 	.streamGraph .labels.super-small {
-		display: none;    
+		display: none;
 	}
 }
 
