@@ -35,37 +35,37 @@ function chart(csvpath, color) {
 		},
 		"Ted Cruz": {
 			color: '#fff',
-			x: '87.88%',
-			y: '70%',
+			x: '86.3%',
+			y: '69%',
 			size: '18px',
 			display: 'Cruz',
 			cssClass: 'medium'
 		},
 		"Marco Rubio": {
 			color: '#fff',
-			x: '86.19%',
-			y: '51%',
+			x: '85.19%',
+			y: '50.5%',
 			display: 'Rubio',			
 			cssClass: 'small'
 		},
 		"John Kasich": {
 			color: '#fff',
-			x: '90.5%',
-			y: '60.2%',
+			x: '89.4%',
+			y: '59.3%',
 			display: 'Kasich',			
 			cssClass: 'super-small'
 		},
 		"Ben Carson": {
 			color: '#fff',
-			x: '46.25%',
-			y: '55.43%',
+			x: '46%',
+			y: '54.4%',
 			display: 'Carson',
 			cssClass: 'smaller'
 		},
 		"Carly Fiorina": {
 			color: '#fff',
-			x: '31%',
-			y: '51.5%',
+			x: '30.5%',
+			y: '50.25%',
 			display: 'Fiorina',
 			cssClass: 'tiny'
 		},
@@ -78,7 +78,7 @@ function chart(csvpath, color) {
 		},
 		"Hillary Clinton": {
 			color: '#fff',
-			x: '86.88%',
+			x: '85.75%',
 			y: '66.5%',
 			display: 'Clinton',
 			cssClass: 'medium'
