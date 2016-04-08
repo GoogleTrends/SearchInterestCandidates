@@ -65,7 +65,7 @@ date,key,value
 03/13/16,Jeb Bush,1.894742158
 03/20/16,Jeb Bush,1.493805559
 03/27/16,Jeb Bush,0.969543119
-04/03/16,Jeb Bush,0.812780291
+04/07/16,Jeb Bush,0.812780291
 12/28/14,Ben Carson,0.870783394
 01/04/15,Ben Carson,0.85636795
 01/11/15,Ben Carson,0.976932202
@@ -132,7 +132,7 @@ date,key,value
 03/13/16,Ben Carson,4.803997094
 03/20/16,Ben Carson,2.29211916
 03/27/16,Ben Carson,1.473853558
-04/03/16,Ben Carson,1.374322232
+04/07/16,Ben Carson,1.374322232
 12/28/14,Chris Christie,0.358983351
 01/04/15,Chris Christie,4.353639343
 01/11/15,Chris Christie,1.774963128
@@ -199,7 +199,7 @@ date,key,value
 03/13/16,Chris Christie,1.83785894
 03/20/16,Chris Christie,0.887464193
 03/27/16,Chris Christie,1.063652666
-04/03/16,Chris Christie,1.528212634
+04/07/16,Chris Christie,1.528212634
 12/28/14,Ted Cruz,0.372346773
 01/04/15,Ted Cruz,0.390496536
 01/11/15,Ted Cruz,1.361882837
@@ -266,7 +266,7 @@ date,key,value
 03/13/16,Ted Cruz,23.63922548
 03/20/16,Ted Cruz,41.91320867
 03/27/16,Ted Cruz,26.07697401
-04/03/16,Ted Cruz,19.19135025
+04/07/16,Ted Cruz,19.19135025
 12/28/14,Carly Fiorina,0
 01/04/15,Carly Fiorina,0.238374547
 01/11/15,Carly Fiorina,0.284796957
@@ -333,7 +333,7 @@ date,key,value
 03/13/16,Carly Fiorina,0.731174031
 03/20/16,Carly Fiorina,0.414699275
 03/27/16,Carly Fiorina,0.523761164
-04/03/16,Carly Fiorina,0
+04/07/16,Carly Fiorina,0
 12/28/14,Jim Gilmore,0
 01/04/15,Jim Gilmore,0
 01/11/15,Jim Gilmore,0
@@ -400,7 +400,7 @@ date,key,value
 03/13/16,Jim Gilmore,0
 03/20/16,Jim Gilmore,0
 03/27/16,Jim Gilmore,0
-04/03/16,Jim Gilmore,0
+04/07/16,Jim Gilmore,0
 12/28/14,Lindsey Graham,0
 01/04/15,Lindsey Graham,0.133354407
 01/11/15,Lindsey Graham,0.124478381
@@ -467,7 +467,7 @@ date,key,value
 03/13/16,Lindsey Graham,0.595324608
 03/20/16,Lindsey Graham,1.217952664
 03/27/16,Lindsey Graham,0.416705312
-04/03/16,Lindsey Graham,0
+04/07/16,Lindsey Graham,0
 12/28/14,Mike Huckabee,0
 01/04/15,Mike Huckabee,1.131860657
 01/11/15,Mike Huckabee,0.795448171
@@ -534,7 +534,7 @@ date,key,value
 03/13/16,Mike Huckabee,0.334792533
 03/20/16,Mike Huckabee,0.174652447
 03/27/16,Mike Huckabee,0.341488641
-04/03/16,Mike Huckabee,0
+04/07/16,Mike Huckabee,0
 12/28/14,Bobby Jindal,0
 01/04/15,Bobby Jindal,0.108609136
 01/11/15,Bobby Jindal,0.193124285
@@ -601,7 +601,7 @@ date,key,value
 03/13/16,Bobby Jindal,0.192717398
 03/20/16,Bobby Jindal,0.17356573
 03/27/16,Bobby Jindal,0.107742388
-04/03/16,Bobby Jindal,0
+04/07/16,Bobby Jindal,0
 12/28/14,John Kasich,0
 01/04/15,John Kasich,0.111523559
 01/11/15,John Kasich,0.156253098
@@ -668,7 +668,7 @@ date,key,value
 03/13/16,John Kasich,18.52505611
 03/20/16,John Kasich,6.558439977
 03/27/16,John Kasich,5.29983823
-04/03/16,John Kasich,4.345450202
+04/07/16,John Kasich,4.345450202
 12/28/14,George Pataki,0
 01/04/15,George Pataki,0
 01/11/15,George Pataki,0
@@ -735,7 +735,7 @@ date,key,value
 03/13/16,George Pataki,0
 03/20/16,George Pataki,0
 03/27/16,George Pataki,0
-04/03/16,George Pataki,0
+04/07/16,George Pataki,0
 12/28/14,Rand Paul,0.280014856
 01/04/15,Rand Paul,0.40440674
 01/11/15,Rand Paul,0.601899355
@@ -802,7 +802,7 @@ date,key,value
 03/13/16,Rand Paul,0.574072433
 03/20/16,Rand Paul,0.404338289
 03/27/16,Rand Paul,0.722206474
-04/03/16,Rand Paul,0
+04/07/16,Rand Paul,0
 12/28/14,Marco Rubio,0.444967577
 01/04/15,Marco Rubio,0.404243322
 01/11/15,Marco Rubio,1.01332564
@@ -869,7 +869,7 @@ date,key,value
 03/13/16,Marco Rubio,25.07815465
 03/20/16,Marco Rubio,4.210912813
 03/27/16,Marco Rubio,2.516800869
-04/03/16,Marco Rubio,1.765006735
+04/07/16,Marco Rubio,1.765006735
 12/28/14,Rick Santorum,0
 01/04/15,Rick Santorum,0.212672405
 01/11/15,Rick Santorum,0.115116948
@@ -936,7 +936,7 @@ date,key,value
 03/13/16,Rick Santorum,0.106870472
 03/20/16,Rick Santorum,0.09163705
 03/27/16,Rick Santorum,0
-04/03/16,Rick Santorum,0
+04/07/16,Rick Santorum,0
 12/28/14,Donald Trump,0.997076968
 01/04/15,Donald Trump,1.922052984
 01/11/15,Donald Trump,1.328451835
@@ -1003,4 +1003,4 @@ date,key,value
 03/13/16,Donald Trump,77.5420389
 03/20/16,Donald Trump,51.1316413
 03/27/16,Donald Trump,43.43071137
-04/03/16,Donald Trump,40.09022228
+04/07/16,Donald Trump,40.09022228

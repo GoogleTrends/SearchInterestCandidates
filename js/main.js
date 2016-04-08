@@ -168,7 +168,7 @@ function chart(csvpath, color) {
 			var layers = stack(nest.entries(data));
 
 			x.domain(d3.extent(data, function(d) { return d.date; }));
-			y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]).nice();
+			y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
 
 			svg.selectAll(".layer")
 				.data(layers)
@@ -214,9 +214,10 @@ function chart(csvpath, color) {
 				{date: '08/16/2015', title: 'Ohio GOP Debate' },
 				{date: '09/16/2015', title: 'California GOP Debate' },
 				{date: '10/13/2015', title: 'Nevada Dem Debate' },
-				{date: '02/1/2016', title: 'Iowa Caucus' },
-				{date: '02/9/2016', title: 'New Hampshire Primary' },
-				{date: '03/1/2016', title: 'Super Tuesday' }
+				{date: '02/01/2016', title: 'Iowa Caucus' },
+				{date: '02/09/2016', title: 'New Hampshire Primary' },
+				{date: '03/01/2016', title: 'Super Tuesday' },
+				{date: '04/05/2016', title: 'Wisconsin Primary' }
 			];
 
 			// Add annotations
@@ -231,7 +232,6 @@ function chart(csvpath, color) {
 				.attr("cy", height / 6)
 				.on('mouseover', function(d) {
 					var mousex = $(this).attr('cx');
-					//var screenX = (width + margin.left + margin.right) / document.body.clientWidth;
 					vertical.style("left", (mousex) + "px" );
 					$('.vertical').fadeIn();
 				}).
@@ -240,7 +240,7 @@ function chart(csvpath, color) {
 				});
 
 			$('svg circle').tipsy({ 
-				gravity: 's', 
+				gravity: $.fn.tipsy.autoWE, 
 				html: true,
 				fade: true,
 				offset: 2, 
