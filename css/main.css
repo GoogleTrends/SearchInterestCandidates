@@ -87,6 +87,7 @@ body {
 
 .title {
 	color: white;
+	margin-left: 10px;
 }
 
 /* ==============
@@ -137,7 +138,7 @@ nav a.demButton:hover {
 
 .footer-container footer {
 	color: white;
-	padding: 20px 0;
+	padding: 5px 0;
 	font-size: 12px;
 }
 
@@ -311,6 +312,10 @@ h1 {
 	font-size: 1.5em;
 	font-weight: 300;
 	font-family: "Open Sans";
+}
+
+.footer {
+	margin-left: 10px;
 }
 
 /* ==========================================================================
