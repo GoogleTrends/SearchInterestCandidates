@@ -13,7 +13,7 @@ function drawChartForSelected() {
 	else {
 		color = "blue";
 	}
-	chart("data/" + loc + "s-stream-week-05-16-2016.csv", color);
+	chart("data/" + loc + "s-stream-week-05-23-2016.csv", color);
 }
 
 
@@ -28,49 +28,49 @@ function chart(csvpath, color) {
 	var labels = {
 		"Donald Trump": {
 			color: '#fff',
-			x: '75.5%',
+			x: '74.5%',
 			y: '35.33%',
 			display: 'Trump',
 			cssClass: 'large'
 		},
 		"Ted Cruz": {
 			color: '#fff',
-			x: '78.3%',
+			x: '77.3%',
 			y: '69%',
 			display: 'Cruz',
 			cssClass: 'medium'
 		},
 		"Marco Rubio": {
 			color: '#fff',
-			x: '77.19%',
+			x: '76.19%',
 			y: '50.5%',
 			display: 'Rubio',			
 			cssClass: 'small'
 		},
 		"John Kasich": {
 			color: '#fff',
-			x: '79.4%',
-			y: '56.3%',
+			x: '79.2%',
+			y: '58.5%',
 			display: 'Kasich',			
 			cssClass: 'super-small'
 		},
 		"Ben Carson": {
 			color: '#fff',
-			x: '42%',
+			x: '41%',
 			y: '54.4%',
 			display: 'Carson',
 			cssClass: 'smaller'
 		},
 		"Carly Fiorina": {
 			color: '#fff',
-			x: '27.5%',
+			x: '27%',
 			y: '50.25%',
 			display: 'Fiorina',
 			cssClass: 'tiny'
 		},
 		"Bernie Sanders": {
 			color: '#fff',
-			x: '75.19%',
+			x: '74.19%',
 			y: '41.17%',
 			display: 'Sanders',
 			cssClass: 'large'
@@ -163,6 +163,8 @@ function chart(csvpath, color) {
 			var data = data.filter(function(d) {
 				return d.date.getTime() > dateCutoff.getTime();
 			});
+
+			console.log(data);
 
 			var layers = stack(nest.entries(data));
 
