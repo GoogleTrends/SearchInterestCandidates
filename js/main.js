@@ -218,7 +218,8 @@ function chart(csvpath, color) {
 				{date: '02/01/2016', title: 'Iowa Caucus' },
 				{date: '02/09/2016', title: 'New Hampshire Primary' },
 				{date: '03/01/2016', title: 'Super Tuesday' },
-				{date: '04/05/2016', title: 'Wisconsin Primary' }
+				{date: '04/05/2016', title: 'Wisconsin Primary' },
+				{date: '05/03/2016', title: 'Ted Cruz drops out' }
 			];
 
 			// Add annotations
