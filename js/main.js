@@ -77,10 +77,10 @@ function chart(csvpath, color) {
 		},
 		"Hillary Clinton": {
 			color: '#fff',
-			x: '75%',
+			x: '72%',
 			y: '66.5%',
 			display: 'Clinton',
-			cssClass: 'medium'
+			cssClass: 'large'
 		},
 
 	}
@@ -219,7 +219,8 @@ function chart(csvpath, color) {
 				{date: '02/09/2016', title: 'New Hampshire Primary' },
 				{date: '03/01/2016', title: 'Super Tuesday' },
 				{date: '04/05/2016', title: 'Wisconsin Primary' },
-				{date: '05/03/2016', title: 'Ted Cruz drops out' }
+				{date: '05/03/2016', title: 'Ted Cruz drops out' },
+				{date: '06/07/2016', title: 'California Primary' }
 			];
 
 			// Add annotations
